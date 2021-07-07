@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.settings__container {
+  max-height: 100%;
+  min-height: 100vh;
+  min-width: 300px;
+  padding: 5px;
+  background: #55331a;
+}
+
+.heroes__container {
+  max-height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: #ecd19a;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+	<title>Мой персональный сайт. Контакт</title>  
+	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="../css/contact.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+</HEAD>
+<BODY>
+	<a name="top"></a>
+	<div class="menu-box">
+		<div class="h-button">
+			<a href="../index.html">
+				<img src="../img/home.png" href="index.html">
+			</a>
+		</div>
+		<div class="menu-links">
+			<ul>
+				<li><a href="about.html">Обо мне</a></li>
+				<li><a href="interest.html">Интересы</a>
+					<ul>
+						<li><a href="interest.html#films">Фильмы</a></li>
+						<li><a href="interest.html#music">Музыка</a></li>
+						<li><a href="interest.html#books">Книги</a></li>
+						<li><a href="interest.html#games">Игры</a></li>
+					</ul>
+				</li>
+				<li><a href="study.html">Учеба</a></li>
+				<li><a href="album.html">Альбом</a></li>
+				<li><a href="contact.html">Контакт</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="mainContent-Contact">
+		<h1>Связь со мной</h1>
+    	<form action="mailto:pirogkov.art@yande.ru" name="contact" method="post">
+    		<div class="contactingMe">
+    			<div class="fioContacting">
+    				<h3>ФИО</h3>
+    				<input class = "inputTextContact" type="text" name="fioContact" id="name">
+				</div>
+    			<div class="genderContacting">
+    				<h3>Пол</h3>
+    				<input сlass="radioButtonGender" type="radio" name="genderContact" id="gender" value="Мужской"> 
+						<label for="genderContact1" id="genderMan">Мужской</label>
+    				<input сlass="radioButtonGender" type="radio" name="genderContact" id="gender" value="Женский">
+						<label for="genderContact2" id="genderWoman">Женский</label>
+    			</div>
+    			<div class="ageContacting">
+    				<h3 id = "age">Ваш возраст:</h3>
+    				<div id = "calendar" class = "calendar">
+						<table id = "table"></table>
+					</div>
+				</div>
+    			<div class="emailContacting">
+    				<h3>Email</h3>
+    				<input class="emailContact" type="Email"
+    				placeholder = "Введите ваш Email"
+					id="mail">
+    			</div>
+                <div class="numberContacting">
+                    <h3>Телефон</h3>
+                    <input class="numberContact" type="tel"
+                    placeholder = "Введите ваш номер телефона"
+					maxlength="16" ;"
+					id="phone">
+                </div>
+				<div class="massageContacting">
+					<h3>Введите ваше сообщение</h3>
+					<textarea class="massageContact" name="massageContact" id="massageContact1" cols="0" rows="0" placeholder = "Введите сообщение"></textarea>
+				</div>
+    		</div>
+    		<input class="confirmationButton" type="Submit" id="send"> 
+   			<input class="confirmationButton" type="Reset" id="reset"> 
+    	</form>
+    <br><br>
+</div>
+<script src = "../js/history.js"></script>
+	<script src="../js/contact.js"></script>
+	<script src="../js/calendar.js"></script>
+</BODY>
+</HTML>

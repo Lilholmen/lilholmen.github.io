@@ -1,0 +1,55 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+
+.album-area {
+	margin-top: 100px;
+	margin-left: 50px;
+	padding-top:50px;
+	padding-left: 50px;
+	height: 860px;
+	width: calc(100% - 50px);
+	min-width: 1173px;
+	background: #FBBE18;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.album-area p {
+	text-align: center;
+	padding :10px -10px;
+	margin-bottom:  26px;
+}
+
+.photo img{
+	width: 80%;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+.photo img:hover{
+	cursor: pointer;
+}
+
+.photo{
+	float: left;
+	font: 100%/2 Arial;
+	text-align: center;
+}
+
+#bigPhoto img{
+	width: 40%;
+	position: absolute;
+	margin: 10% 30%;
+	border: white 3px solid;
+}
+
+#closePhoto img{
+	width: 3%;
+	margin-left: 67%;
+}
+
+#closePhoto img:hover{
+	cursor: pointer;
+}

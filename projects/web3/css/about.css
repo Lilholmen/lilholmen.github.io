@@ -1,0 +1,20 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+
+.txt-area {
+	padding-left: 50px;
+	padding-top: 100px;
+}
+
+.txt-area p {
+	height: 300px;
+	width: 480px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	display: block;
+	background: #FBBE18;
+	padding: 41px;
+	float: left;
+	text-align: justify;
+}

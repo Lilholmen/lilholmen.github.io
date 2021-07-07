@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>____________poop</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container__year">
+          <button class="year-button" value="2020">2020</button>
+          <button class="year-button btn-selected" value="2021">2021</button>
+          <button class="year-button" value="2022">2022</button>
+        </div>
+        <div class="container__month">
+          <button class="month-button" value="1">Jan</button
+          ><button class="month-button" value="2">Feb</button
+          ><button class="month-button btn-selected" value="3">Mar</button
+          ><button class="month-button" value="4">Apr</button
+          ><button class="month-button" value="5">May</button
+          ><button class="month-button" value="6">Jun</button
+          ><button class="month-button" value="7">Jul</button
+          ><button class="month-button" value="8">Aug</button
+          ><button class="month-button" value="9">Sep</button
+          ><button class="month-button" value="10">Oct</button
+          ><button class="month-button" value="11">Nov</button
+          ><button class="month-button" value="12">Dec</button>
+        </div>
+        <div class="container__result">
+          <h3 class="result__text">
+            Total salary this month: <span class="result__data"></span>
+          </h3>
+          <h3 class="result__text">
+            Prepayment this month: <span class="result__data"></span>
+          </h3>
+          <h3 class="result__text">
+            Bank card: <span class="result__data"></span>
+          </h3>
+          <h3 class="result__text">
+            Cash this month: <span class="result__data"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="container__shifts">
+        <button class="shifts__btn decrease">decrase</button>
+        <span id="counter" class="shifts__count-value">8</span>
+        <button class="shifts__btn increase">increase</button>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

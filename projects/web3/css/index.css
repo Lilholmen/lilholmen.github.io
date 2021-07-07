@@ -1,0 +1,114 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+
+.bio {
+	height: 402px;
+	width: calc(100% - 50px);
+	margin-left: 50px;
+	margin-top: 50px;
+	display: block;
+	background: #FBBE18;
+	padding: 41px;
+	float: left;
+}
+
+.image {
+	margin: 0;
+	display: block;
+	float: left;
+	margin-right: 40px;
+}
+
+.fio {
+	color: #20252A;
+	font-family: 'Franklin Gothic Medium';
+	font-size: 49pt;
+	display: block;
+	font-weight: 900;
+}
+
+.group {
+	color: #E94A54;
+	font-family: 'Franklin Gothic Medium';
+	font-weight: 900;
+	font-size: 40pt;
+	display: block;
+}
+
+.menu-box {
+	height: 100%;
+	width: 320px;
+	background: #20252A;
+	display: block;
+	position: absolute;
+	right: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+
+#clock{
+	color: #E5194A;
+	position: absolute;
+	left: 50px;
+	top: 12px;
+	font-size: 18px;
+	z-index: 99;
+}	
+
+.menu-links ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu-links {
+	margin-top: 50px;
+}
+
+.menu-links a {
+	font-size: 45px;
+	color: #FBBE18;
+	font-weight: 900;
+	padding-left: 41px;
+}
+
+.menu-links a:hover {
+	width: 320px;
+	background: #E5194A;
+	color: #20252A;
+	text-decoration-line: none;
+	display: block;
+	padding-left: 41px;
+}
+
+.his a {
+	color: #E94A54;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium';
+	font-weight: 900;
+	margin: 0;
+}
+
+.his {
+	position: absolute;
+	display: block;
+	bottom: 100px;
+	right: 132px;
+}
+
+.lab h3 {
+	color: #E94A54;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium';
+	font-weight: 900;
+	margin: 0;
+}
+
+.lab {
+	position: absolute;
+	display: block;
+	bottom: 50px;
+	right: 112px;
+}

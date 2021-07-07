@@ -1,0 +1,18 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+
+.tableHistory{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 40%;
+	margin: 5% 5%;
+	font: 110%/1.5 Arial;
+	float: left;
+	background-color: #FBBE18;
+}
+
+.tableHistory tr, .tableHistory td{
+	border-collapse: collapse;
+	border: 1px solid black;
+}

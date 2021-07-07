@@ -1,0 +1,116 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+.mainContent-Contact{
+	margin-top: 100px;
+	margin-left: 50px;
+	min-height: calc(100vh - 78px);
+	width: calc(100% - 50px);
+	background: #FBBE18;
+	line-height: 40px
+}
+.mainContent-Contact h1{
+	padding:  35px 0 0 50px;
+}
+.contactingMe{
+	height: 770px;
+	width: 500px;
+	margin-left: 50px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.fioContacting, .genderContacting, .emailContacting,
+.numberContacting{
+	display: flex;
+	margin: 20px 0 0 10px; 
+}
+.inputTextContact{
+	border: 1px solid black;
+	width: 290px;
+	height: 25px;
+	background: #E6E6FA;
+	padding: 0 5px;
+	font-size: 15px;
+	outline: none;
+	margin: 5px 0 0 70px; 
+}
+.genderContacting input{
+	margin: 13px 0 0 80px;
+}
+.genderContacting label{
+	margin-left: 15px; 
+}
+
+.calendar{
+	align-items: center;
+	background-color: #E5194A;
+	color: #20252A;
+	font: 100%/1.5 Arial;
+	font-weight: bold;
+	border-radius: 5%;
+	text-align: center;
+	width: 260px;
+}
+
+.calendar a{
+	padding: 30%;
+}
+
+.calendar a:hover{
+	background-color: #E94A54;
+	color: #E94A54;
+	cursor: pointer;
+}
+
+#activeDay{
+	background-color: #20252A;
+	color: #E94A54;
+}
+
+.emailContact{
+	border: 1px solid black;
+	width: 290px;
+	height: 25px;
+	background: #E6E6FA;
+	padding: 0 5px;
+	font-size: 15px;
+	outline: none;
+	margin: 5px 0 0 65px; 
+}
+.numberContact{
+	border: 1px solid black;
+	width: 290px;
+	height: 25px;
+	background: #E6E6FA;
+	padding: 0 5px;
+	font-size: 15px;
+	outline: none;
+	margin: 5px 0 0 35px;
+}
+.massageContacting{
+	margin: 5px 0 0 10px;
+}
+.massageContact{
+	height: 180px;
+	width: 410px;
+	border: 1px solid black;
+	background: #E6E6FA;
+	outline: none;
+	resize: none;
+	padding: 5px
+}
+
+.error{
+	background-color: #ff0090;
+	color: white;
+	font-weight: bold;
+}
+
+.success{
+	background-color: #21ff96;
+	font-weight: bold;
+}
+
+.confirmationButton {
+	margin-left: 50px;
+}

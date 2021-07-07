@@ -1,0 +1,87 @@
+.menu-box {
+	top: 0;
+	min-width: 1223px;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background: #20252A;
+	display: block;
+}
+
+.h-button a{
+	float: left;
+	display: inline;
+	background: #FBBE18;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.h-button a:hover {
+	background: #E5194A;
+}
+
+.h-button img {
+	width: 40px;
+	height: 40px;
+}
+
+.menu-links ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	display: inline-block;
+}
+
+.menu-box li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu-links a {
+	font-size: 40px;
+	color: #FBBE18;
+	font-weight: 900;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 47px;
+}
+
+.menu-links a:hover {
+	width: 320px;
+	background: #E5194A;
+	color: #20252A;
+	text-decoration-line: none;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu-links ul ul {
+	position: absolute;
+	display: none;
+}
+
+.menu-links ul ul li {
+	width: 243px;
+	height: 50px;
+	background: #20252A;
+}
+
+.menu-links ul ul a {
+	color: #FBBE18;
+}
+
+.menu-links ul ul a:hover {
+	color: #E5194A;
+	background: none;
+}
+
+.menu-links li:hover ul {
+	display: block;
+}
+
+.menu-links li:hover li {
+	display: block;
+}

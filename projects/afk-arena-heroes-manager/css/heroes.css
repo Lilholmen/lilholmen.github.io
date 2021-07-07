@@ -1,0 +1,100 @@
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.hero {
+  min-height: 70px;
+  min-width: 70px;
+  margin: 10px;
+  display: inline-block;
+  border: purple solid 3px;
+  border-radius: 20% 0;
+}
+
+.hero--hidden {
+  display: none;
+}
+
+.faction-icon {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+.si0,
+.si10,
+.si20,
+.si30 {
+  border: white solid 2px;
+  border-radius: 50%;
+}
+
+.si0 {
+  border-color: rgb(179, 0, 179);
+}
+
+.si10 {
+  border-color: yellow;
+}
+
+.si20 {
+  border-color: red;
+}
+
+.si30 {
+  border-color: white;
+}
+
+.hero__furniture-section {
+  position: absolute;
+  margin-top: 20px;
+}
+
+.furniture-section__gem {
+  max-height: 15px;
+  margin-right: -6px;
+}
+
+.hero__star-section {
+  margin-top: 46px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 10px 0;
+}
+
+.star-section__star {
+  height: 15px;
+  width: 15px;
+  margin: 0 -2px -2px -2px;
+}
+
+.ascended {
+  border-color: white;
+}
+
+.mythic,
+.mythicP {
+  border-color: red;
+}
+
+.legendary,
+.legendaryP {
+  border-color: yellow;
+}
+
+.elite,
+.eliteP {
+  border-color: rgb(179, 0, 179);
+}
+
+.none {
+  border-color: rgb(143, 98, 1);
+}
+
+.eliteP,
+.legendaryP,
+.mythicP {
+  border-style: dashed;
+}

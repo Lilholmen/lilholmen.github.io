@@ -1,0 +1,96 @@
+body {
+	background: url(../img/bg.jpg) repeat #FFFFFF;
+}
+
+.mainContent-test{
+	margin-top: 100px;
+	margin-left: 50px;
+	min-height: calc(100vh - 78px);
+	width: calc(100% - 50px);
+	background: #FBBE18;
+	line-height: 40px
+}
+.mainContent-test h1{
+	font-size: 35px;
+	padding: 30px 0 0 50px;
+}
+.mainContent-test h2{
+	font-size: 20px;
+	margin: 0 0 0 50px
+} 
+.personalData{
+	border-bottom: 2px solid black;
+	border-top:  2px solid black;
+	width: 500px;
+	height: 180px;
+	margin-left: 50px;
+	padding: 10px 0; 
+}
+.inputText{
+	border: 1px solid black;
+	width: 290px;
+	height: 25px;
+	background: #E6E6FA;
+	padding: 0 5px;
+	font-size: 15px;
+	outline: none;
+}
+.groupSelect, .question2Select {
+ 	border: 1px solid black;
+	width: 303px;
+	height: 28px;
+	background: #E6E6FA;
+	font-size: 15px;
+	outline: none;
+}
+.test textarea{
+	border: 1px solid black;
+	width: 293px;
+	height: 100px;
+	background: #E6E6FA;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 5px;
+	outline: none;
+	resize: none;
+}
+.test{
+	border-bottom: 2px solid black;
+	width: 500px;
+	height: 450px;
+	margin-left: 50px;
+	padding: 10px 0; 
+}
+.test p{
+	margin-top: -5px;
+	line-height: 20px;
+}
+.test label{
+	padding: 10px;
+}
+.radioQuestion input{
+	margin-left: 10px;
+}
+.confirmationButton{
+ 	padding: 3px;
+ 	margin: 15px 0 0 60px;
+ 	outline: none;
+	background: #E6E6FA;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+.errorFIOtest {
+	position: absolute;
+	margin-left: 330px;
+	font-size: 12px;
+	visibility: hidden;
+	color: #bf1300;
+}
+.errorTextArea{
+	position: absolute;
+	margin-left: 330px;
+	padding-top: 50px;
+	font-size: 12px;
+	color: #bf1300;
+	visibility: hidden;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+	<title>Мой персональный сайт. Тест</title>  
+	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="../css/test.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<script src="../js/test.js"></script>
+</HEAD>
+<BODY>
+	<a name="top"></a>
+	<div class="menu-box">
+		<div class="h-button">
+			<a href="../index.html">
+				<img src="../img/home.png" href="index.html">
+			</a>
+		</div>
+		<div class="menu-links">
+			<ul>
+				<li><a href="about.html">Обо мне</a></li>
+				<li><a href="interest.html">Интересы</a>
+					<ul>
+						<li><a href="interest.html#films">Фильмы</a></li>
+						<li><a href="interest.html#music">Музыка</a></li>
+						<li><a href="interest.html#books">Книги</a></li>
+						<li><a href="interest.html#games">Игры</a></li>
+					</ul>
+				</li>
+				<li><a href="study.html">Учеба</a></li>
+				<li><a href="album.html">Альбом</a></li>
+				<li><a href="contact.html">Контакт</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="mainContent-test">
+		<h1>Тест</h1>
+		<h2>По дисциплине инженерная графика :</h2>
+		<form action="" onsubmit="return CheckForm();">
+			<div class="personalData">
+				<h4> Введите свою ФИО полностью :</h4>
+				<p class="errorFIOtest" id="errorFIOtest">Заполните поле правильно</p>
+				<input class="inputText" type="text" name="TestFIO" id="testFIO">
+				<h4> Группа : </h4>
+				<select class="groupSelect" name="Group">
+					<option value="Исб-31о">Исб-31о</option>
+					<option value="Исб-32о">Исб-32о</option>
+					<option value="Исб-33о">Исб-33о</option>
+				</select>
+			</div>
+			<div class="test">
+				<h4>Вопрос 1 :</h4>
+				<p>Если многогранник весь расположен по одну сторону от любой его грани, то он называется :</p>
+				<select class="question2Select" name="question">
+					<option value="Правильным">Правильным</option>
+					<option value="Неправильным">Неправильным</option>
+					<option value="Вогнутым">Вогнутым</option>
+					<option value="Выпуклым">Выпуклым</option>
+					<option value="Выпуклым2">Выпуклым2</option>
+					<option value="Выпуклым3">Выпуклым3</option>
+				</select>
+				<h4>Вопрос 2 :</h4>
+				<p>Что такое недостаток параметрического описания поверхности :</p>
+				<p class="errorTextArea" id="errorTextArea">В ответе отсутсвуют числа</p>
+				<textarea name="textAreaQuestion" id="textAreaQuestion3" cols="0" rows="0"></textarea>
+				<h4>Вопрос 3 :</h4>
+				<p> Резьбу, образованную движением одного профиля, называют : </p>
+				<div class="radioQuestion">
+					<input type="radio" id="radioQuestion1" name="radioQuestion" value="Простой">
+					<label for="radioQuestion1">Простой</label>
+					<input type="radio" id="radioQuestion2" name="radioQuestion" value="Однопрофильной">
+					<label for="radioQuestion2">Однопрофильной</label>
+					<input type="radio" id="radioQuestion3" name="radioQuestion" value="Однопрофильной2">
+					<label for="radioQuestion3">Однопрофильной2</label>
+					<input type="radio" id="radioQuestion4" name="radioQuestion" value="Однопрофильной3">
+					<label for="radioQuestion4">Однопрофильной3</label>
+					<input type="radio" id="radioQuestion5" name="radioQuestion" value="Однопрофильной4">
+					<label for="radioQuestion5">Однопрофильной4</label>
+				</div>
+			</div>
+			<button class="confirmationButton" type="Submit"> Отправить </button>
+			<button class="confirmationButton" type="Reset"> Очистить </button>
+		</form>
+		<br><br>
+	</div>
+	<script src = "../js/history.js"></script>
+</BODY>
+</HTML>

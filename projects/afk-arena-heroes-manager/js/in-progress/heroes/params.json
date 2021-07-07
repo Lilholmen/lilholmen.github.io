@@ -1,0 +1,29 @@
+{
+  "factions": [
+    "lightbearer",
+    "mauler",
+    "wilder",
+    "graveborn",
+    "celestial",
+    "hypogean",
+    "dimensional"
+  ],
+
+  "based": ["strength", "intelligence", "agility"],
+
+  "classes": ["warrior", "tank", "ranger", "mage", "support"],
+
+  "ascentions": [
+    "ascended",
+    "mythicP",
+    "mythic",
+    "legendaryP",
+    "legendary",
+    "eliteP",
+    "elite"
+  ],
+
+  "sigItems": [30, 20, 10, 0, null],
+
+  "furnitures": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+}

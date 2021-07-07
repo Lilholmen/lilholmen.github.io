@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/filters.css" />
+    <link rel="stylesheet" href="css/sort.css" />
+    <link rel="stylesheet" href="css/heroes.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <title>AFK Arena Hero Manager</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="settings__container">
+        <div class="filters">
+          <div class="filter__btn-container">
+            <div class="btn-container btn-container--faction"></div>
+            <div class="btn-container btn-container--base"></div>
+            <div class="btn-container btn-container--class"></div>
+            <div class="btn-container btn-container--ascention"></div>
+          </div>
+        </div>
+        <div class="sorts">
+          <div class="sort__btn-container">
+            <div class="sort__active-sort"></div>
+            <div class="sort__inactive-sort">
+              <button
+                class="sort__btn sort__btn--faction sort__btn--inactive"
+                id="0"
+              >
+                faction</button
+              ><button
+                class="sort__btn sort__btn--base sort__btn--inactive"
+                id="1"
+              >
+                base
+              </button>
+              <button
+                class="sort__btn sort__btn--class sort__btn--inactive"
+                id="2"
+              >
+                class</button
+              ><button
+                class="sort__btn sort__btn--faction sort__btn--inactive"
+                id="3"
+              >
+                ascention
+              </button>
+              <button
+                class="sort__btn sort__btn--si sort__btn--inactive"
+                id="4"
+              >
+                si
+              </button>
+              <button
+                class="sort__btn sort__btn--furniture sort__btn--inactive"
+                id="5"
+              >
+                furniture
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="heroes__container">
+        <div class="heroes" id="heroes-section"></div>
+      </section>
+    </main>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>

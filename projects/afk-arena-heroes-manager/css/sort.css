@@ -1,0 +1,29 @@
+.sort__btn-container {
+  margin-top: 30px;
+}
+
+.sort__active-sort {
+  display: flex;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background: #332011;
+}
+
+.sort__inactive-sort {
+  display: flex;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background: #332011;
+}
+
+.sort__btn {
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: rgb(255, 193, 100);
+  outline: unset;
+}
